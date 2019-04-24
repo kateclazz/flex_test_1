@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style>
+	.flex-container {
+		background: green;
+		display: flex;
+			}
+	
+	.flex-item {
+			background-color: blue;
+			flex:1;
+			}
+
+
+	</style>
+	</head>
+
+<body>
+	
+	<div class="clearfix">
+  <div class="flex-container">
+    <div class="flex-item">[text* your-name placeholder "First Name"]</div>
+    <div class="flex-item">[text* text-surname placeholder "Surname"]</div>
+  </div>
+  <div class="flex-container">
+    <div class="flex-item">[text* text-business-name placeholder "Business Name"]</div>
+  </div>
+  <div class="flex-container">
+    <div class="flex-item">[text* text-abn placeholder "ABN Number"]</div>
+  </div>
+  <div class="flex-container">
+    <div class="flex-item">[text* text-address placeholder "Business Address"]</div>
+  </div>
+  <div class="flex-container">
+    <div class="flex-item">[text text-phone placeholder "Business Phone"]</div>
+    <div class="flex-item">[text* text-mobile placeholder "Mobile Phone"]</div>
+  </div>
+  <div class="flex-container">
+    <div class="flex-item">[text* text-bus-web placeholder "Business Website"]</div>
+  </div>
+  <div class="flex-container">
+    <div class="flex-item">[email* your-email "Email Address"]</div>
+  </div>
+  <div class="flex-container">
+    <div class="flex-item">[text* text-position-held placeholder "Position Held"]</div>
+  </div>
+  <div class="flex-container">
+    <div class="flex-item">[text* text-primary-business placeholder "Primary Business"]</div>
+  </div>
+  <div class="flex-container">
+    <div class="flex-item">[text* text-preferred-category placeholder "Preferred Category"]</div>
+  </div>
+  <div class="flex-container">
+    <div class="flex-item">[text* text-other-groups placeholder "Other Networking Groups"]</div>
+  </div>
+  <div class="flex-container">
+    <div class="flex-item">[text* text-referred-by placeholder "Who referred you to MBN?"]</div>
+  </div>
+
+
+
+
+  <label> Your Message
+    [textarea your-message] </label>
+
+  [submit "Send"]
+
+</div>
+</body>
+</html>
